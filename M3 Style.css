@@ -38,6 +38,8 @@ nav a{
     text-transform: capitalize;
 }
 main{
+    min-width: 800px;
+
     text-align: center;
 }
 h1{
@@ -73,6 +75,7 @@ h3{
     background-color: rgb(105, 176, 169);
     margin: 20px;
     display: inline-block;
+    vertical-align: top;
 }
 #recipe1, #recipe2{
     float: left;
@@ -108,11 +111,16 @@ border: 3px solid rgb(16, 109, 110);
 background-color: rgb(20, 179, 182);
     display: inline-block;
     padding: 15px;
-    text-align: justify;
+    text-align: left;
+vertical-align: top;
+    position: relative;
 }
 #vignette{
     width: 40px;
     border-radius: 60px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
     
 }
 h6>p{
