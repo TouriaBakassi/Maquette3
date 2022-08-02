@@ -1,6 +1,10 @@
 @font-face {
-    font-family: "Slabo 27" "Open_Sans";
-    src: url(font/Slabo_27px/Slabo27px-Regular.ttf) url(font/Open_Sans/OpenSans-Bold.ttf);
+    font-family: "Slabo 27" ;
+    src: url(font/Slabo_27px/Slabo27px-Regular.ttf);
+}
+@font-face {
+    font-family: "Open_Sans";
+    src: url(font/Open_Sans/OpenSans-Bold.ttf);
 }
 body{
     margin: 0;
@@ -18,9 +22,10 @@ header{
 }
 nav{
     font-family: "Slabo 27px";
-    font-size: 1em;
+    font-size: 27px;
     padding-right: 35px;
     padding-bottom: 10px;
+    text-decoration: none;
     
 }
 nav>ul>li{
