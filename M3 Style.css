@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Slabo 27" "Open_Sans";
+    src: url(font/Slabo_27px/Slabo27px-Regular.ttf) url(font/Open_Sans/OpenSans-Bold.ttf);
+}
+body{
+    margin: 0;
+    background-image:url("img/fond.png");
+}
+
+header{
+    background-color:rgb(20, 179, 182);
+    border-top: 2px solid rgb(28, 151, 155);
+    border-bottom: 2px solid rgb(28, 151, 155);
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+}
+nav{
+    font-family: "Slabo 27px";
+    font-size: 1em;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    
+}
+nav>ul>li{
+    display: inline-block;
+}
+nav a{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+main{
+    text-align: center;
+}
+h1{
+    font-family: "Slabo 27px";
+    font-size: 2.5em;
+}
+p{
+    font-family: "Open_Sans";
+    padding: 5px;
+    text-align: center;
+
+}
+.sec1{
+    text-align: center;
+    padding: 50px;
+}
+h2{
+    font-family: "Slabo 27px";
+    font-size: 3.5em;
+}
+span{
+    color: rgb(19, 123, 124);
+}
+h3{
+    font-family: "Slabo 27px";
+    font-size: 1.8em;
+    text-align: left;
+    position: relative;
+}
+.section2{
+    width: 65%;
+    border: 1px solid rgb(105, 176, 169);
+    background-color: rgb(105, 176, 169);
+    margin: 20px;
+    display: inline-block;
+}
+#recipe1, #recipe2{
+    float: left;
+    overflow: auto;
+    margin: 20px;
+    border-radius: 60px;
+}
+.para1, .para2{
+clear: both;
+}
+.article2{
+    width: 30%;
+    display: inline-block;
+    margin-left: 30px;
+    padding-bottom: 20px;
+}
+.article1{
+    width: 30%;
+    clear: both;
+    display: inline-block;
+    margin-right: 30px;
+}
+h3>i{
+    color: rgb(16, 109, 110);
+}
+h6>i{
+    color: whitesmoke;
+}
+aside{
+    width: 15%;
+    color: white;
+border: 3px solid rgb(16, 109, 110);
+background-color: rgb(20, 179, 182);
+    display: inline-block;
+    padding: 15px;
+    text-align: justify;
+}
+#vignette{
+    width: 40px;
+    border-radius: 60px;
+    
+}
+h6>p{
+    text-align: justify;
+}
+button{
+    color: white;
+    background-color:rgb(35, 134, 134);
+    border: 1px solid rgb(35, 134, 134);
+    padding: 5px;
+    float: right;
+}
+.section2,aside{
+    overflow: auto;
+}
+
+
+
+footer {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  footer p {
+    margin-top: 0;
+  }
+  
+  footer img {
+    width: 50px;
+  }
