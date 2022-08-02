@@ -24,9 +24,7 @@ nav{
     font-family: "Slabo 27px";
     font-size: 27px;
     padding-right: 35px;
-    padding-bottom: 10px;
-    text-decoration: none;
-    
+    padding-bottom: 10px;    
 }
 nav>ul>li{
     display: inline-block;
@@ -36,15 +34,17 @@ nav a{
     margin: 10px;
     padding: 10px;
     text-transform: capitalize;
+    text-decoration: none;
 }
 main{
     min-width: 800px;
-
-    text-align: center;
+    max-width: 1100px;
+    margin: auto;
 }
 h1{
     font-family: "Slabo 27px";
     font-size: 2.5em;
+    font-weight: 100;
 }
 p{
     font-family: "Open_Sans";
@@ -53,92 +53,115 @@ p{
 
 }
 .sec1{
+    width: 60%;
     text-align: center;
-    padding: 50px;
+    margin: auto;
+    margin-bottom: 40px;
 }
 h2{
     font-family: "Slabo 27px";
+    text-align: center;
     font-size: 3.5em;
+    font-weight: 200;
+    margin: 10px;
 }
 span{
     color: rgb(19, 123, 124);
 }
 h3{
     font-family: "Slabo 27px";
+    font-weight: 300;
     font-size: 1.8em;
-    text-align: left;
-    position: relative;
+    text-align: center;
+    
 }
 .section2{
     width: 65%;
-    border: 1px solid rgb(105, 176, 169);
-    background-color: rgb(105, 176, 169);
-    margin: 20px;
+    background-color: rgb(182, 225, 226);
+    padding: 40px 0;
     display: inline-block;
+    box-sizing: border-box;
     vertical-align: top;
+}
+.section2 p{
+    text-align: left;
 }
 #recipe1, #recipe2{
     float: left;
-    overflow: auto;
-    margin: 20px;
+    margin-right: 10px;
     border-radius: 60px;
 }
 .para1, .para2{
 clear: both;
 }
 .article2{
-    width: 30%;
+    width: 40%;
     display: inline-block;
     margin-left: 30px;
-    padding-bottom: 20px;
+    clear: both;
+    overflow: auto;
+vertical-align: top;
 }
 .article1{
-    width: 30%;
-    clear: both;
+    width: 40%;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    clear: both;
+    overflow: auto;
+    vertical-align: top;
 }
 h3>i{
     color: rgb(16, 109, 110);
 }
-h6>i{
+h4>i{
     color: whitesmoke;
 }
 aside{
-    width: 15%;
+    width: 30%;
     color: white;
 border: 3px solid rgb(16, 109, 110);
 background-color: rgb(20, 179, 182);
     display: inline-block;
     padding: 15px;
+    margin-left: 15px;
     text-align: left;
 vertical-align: top;
+box-sizing: border-box;
     position: relative;
 }
-#vignette{
-    width: 40px;
+aside p{
+    margin-top: 0px;
+    text-align: left;
+    font-weight: 100;
+
+}
+aside h4{
+    font-size: 25px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+aside h5{
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: rgb(182, 225, 226);
+}
+aside>img{
     border-radius: 60px;
     position: absolute;
     top: -50px;
-    right: -50px;
-    
+    right: -50px; 
 }
-h6>p{
-    text-align: justify;
+aside span{
+    color: rgb(182, 225, 226);
 }
 button{
     color: white;
     background-color:rgb(35, 134, 134);
-    border: 1px solid rgb(35, 134, 134);
-    padding: 5px;
+    border: none;
+    padding: 10px;
     float: right;
 }
-.section2,aside{
-    overflow: auto;
-}
-
-
-
 footer {
     text-align: center;
     width: 70%;
